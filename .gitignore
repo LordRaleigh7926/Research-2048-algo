@@ -1,2 +1,4 @@
 /game2.py
 /test.py
+.venv
+__pycache__
