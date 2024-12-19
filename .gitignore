@@ -1,4 +1,7 @@
-/game2.py
-/test.py
 .venv
 __pycache__
+game.py
+todo.md
+logs.txt
+.gitignore
+./models/
