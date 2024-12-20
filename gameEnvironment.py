@@ -8,7 +8,7 @@ import math
 
 
 register(
-    id = '_2048_',
+    id = '2048',
     entry_point="gameEnvironment:_2048_Game_Env"
 )
 
@@ -21,14 +21,17 @@ class _2048_Game_Env(gym.Env):
         self.grid_rows = 4
         self.grid_cols = 4
         self.render_mode = render_mode
-        self.game = ev.Game2048Env()
+        if render_mode=='human':
+            self.game = ev.Game2048Env(True)
+        else:
+            self.game = ev.Game2048Env()
         self.seed = 42
 
         self.action_space = spaces.Discrete(4)
 
         self.observation_space = spaces.Box(
             low=0,
-            high=100000000,
+            high=65536,
             shape=(16,),
             dtype=int
         )
@@ -57,18 +60,24 @@ class _2048_Game_Env(gym.Env):
 
         self.game.move(action)
 
-        reward = 0
         terminated = False
 
         info = {}
 
-        for i in self.game.multiplier:
-            reward+=math.log2(i)**2
+        reward = 0
 
-        # for r in self.game.grid:
-        #     for c in r:
-        #         if c == 0:
-        #             reward += 50
+        new_blocks = len(self.game.multiplier)
+        for i in self.game.multiplier:
+            reward+=math.log2(i)*new_blocks
+
+        if self.game.wasted_steps>3:
+            reward = reward - 100*self.game.wasted_steps
+
+        for r in self.game.grid:
+            for c in r:
+                if c == 0:
+                    reward += 50
+
         new_state = self.game.get_state()
 
         same_state = True
@@ -77,11 +86,15 @@ class _2048_Game_Env(gym.Env):
                 same_state = False
 
         if same_state:
-            reward-=200
+            reward-=2000
+
+        if new_blocks == 0:
+            reward -= 100
+        
 
         obs = self.game.get_state()
 
-        print(self.game.grid)
+        terminated = self.game.check_game_over()
 
         return obs, reward, terminated, False, info
     
@@ -91,7 +104,7 @@ class _2048_Game_Env(gym.Env):
 
 if __name__ == '__main__':
 
-    env = gym.make('_2048_', render_mode='human', seed = 42)
+    env = gym.make('2048', render_mode='human', seed = 42)
 
     # check_env(env.unwrapped)
 

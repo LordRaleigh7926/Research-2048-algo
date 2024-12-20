@@ -4,4 +4,5 @@ game.py
 todo.md
 logs.txt
 .gitignore
-./models/
+models
+logs

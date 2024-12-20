@@ -1,14 +1,16 @@
 import numpy as np
 import random
 
-file = open("logs.txt", 'w')
+
 
 class Game2048Env:
-    def __init__(self):
+    def __init__(self, render=False):
         self.grid_size = 4
         self.multiplier = []
         self.grid = np.zeros((self.grid_size, self.grid_size), dtype=int)
         self.reset()
+        self.render = render
+        self.wasted_steps=0
 
     def reset(self, seed=42):
         random.seed(seed)
@@ -25,9 +27,10 @@ class Game2048Env:
             self.grid[r][c] = 2 if random.random() < 0.9 else 4
 
     def get_state(self):
-        return np.log2(self.grid + 1).flatten() / 16  # Normalized flattened grid
+        return self.grid.flatten().reshape(16)  # Normalized flattened grid
 
     def move(self, direction):
+        self.multiplier = []
         if direction == 0: # Up
             self.grid = self.grid.T
             self.grid = np.array([self.merge(row) for row in self.grid])
@@ -50,17 +53,29 @@ class Game2048Env:
         if add_tile:
             self.add_random_tile()
 
+        if len(self.multiplier) == 0:
+            self.wasted_steps+=1
+        else:
+            self.wasted_steps=0
+
+        if self.render:
+            print(f"Wasted Steps: {self.wasted_steps}")
+            print(f"New Blocks: {self.multiplier}")
+            print(self.grid)
+
     def merge(self, row):
+
         new_row = [i for i in row if i != 0]
+
         for i in range(len(new_row) - 1):
             if new_row[i] == new_row[i + 1]:
                 new_row[i] *= 2
                 New_Multiplied_Block = new_row[i]
-                if New_Multiplied_Block>64:
-                    file.write(f"{New_Multiplied_Block}")
                 self.multiplier.append(New_Multiplied_Block)
                 new_row[i + 1] = 0
+
         new_row = [i for i in new_row if i != 0]
+
         return new_row + [0] * (self.grid_size - len(new_row))
 
     def check_game_over(self):
@@ -73,7 +88,6 @@ class Game2048Env:
                 if r < self.grid_size - 1 and self.grid[r][c] == self.grid[r + 1][c]:
                     return False
                 
-        file.close()
         return True
 
 
