@@ -12,8 +12,9 @@ class Game2048Env:
         self.render = render
         self.wasted_steps=0
 
-    def reset(self, seed=42):
-        random.seed(seed)
+    def reset(self, seed=None):
+        if seed!=None:
+            random.seed(seed)
         self.multiplier = []
         self.grid = np.zeros((self.grid_size, self.grid_size), dtype=int)
         self.add_random_tile()

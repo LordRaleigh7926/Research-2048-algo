@@ -16,7 +16,7 @@ class _2048_Game_Env(gym.Env):
 
     metadata = {"render_modes": ["human"], "render_fps":1, 'seed':42}
 
-    def __init__(self, render_mode = None, seed=42):
+    def __init__(self, render_mode = None, seed=None):
 
         self.grid_rows = 4
         self.grid_cols = 4
@@ -93,8 +93,10 @@ class _2048_Game_Env(gym.Env):
         
 
         obs = self.game.get_state()
-
         terminated = self.game.check_game_over()
+        if self.game.wasted_steps>10:
+            terminated = True
+
 
         return obs, reward, terminated, False, info
     

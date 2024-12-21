@@ -12,6 +12,12 @@ import gymnasium as gym
 
 runs_per_net = 10
 
+move = {
+    0:"Up",
+    1:"Down",
+    2:"Left",
+    3:"Right",
+}
 
 
 # Use the NN network phenotype and the discrete actuator force function.
@@ -26,16 +32,19 @@ def eval_genome(genome, config):
         observation = env.reset()
 
         observation = observation[0]
-        
 
         fitness = 0.0
         done = False
+
         while not done:
 
             action = np.argmax(net.activate(observation.tolist()))
             
             observation, reward, done, _, _ = env.step(action)
             fitness += reward
+
+        # if done==True:
+        #     print(f'Genome fininished with fitness : {fitness}')
 
         fitnesses.append(fitness)
 
@@ -65,11 +74,10 @@ def run():
     winner = pop.run(pe.evaluate)
 
     # Save the winner.
-    with open('winner', 'wb') as f:
+    with open('winner_v0', 'wb') as f:
         pickle.dump(winner, f)
 
     print(winner)
-
 
 
 
