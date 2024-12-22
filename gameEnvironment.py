@@ -96,6 +96,8 @@ class _2048_Game_Env(gym.Env):
             reward += 0.1 * final_score
             info["final_score"] = final_score
 
+        if self.game.wasted_steps>10 or self.same_state_repeat>10:
+            reward-=100
         self.step_count += 1
 
         reward += self.step_count * 0.1
