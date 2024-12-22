@@ -10,7 +10,7 @@ import gymnasium as gym
 
 
 
-runs_per_net = 10
+runs_per_net = 20
 
 move = {
     0:"Up",
@@ -74,7 +74,7 @@ def run():
     winner = pop.run(pe.evaluate)
 
     # Save the winner.
-    with open('winner_v0', 'wb') as f:
+    with open('winner_v1', 'wb') as f:
         pickle.dump(winner, f)
 
     print(winner)
