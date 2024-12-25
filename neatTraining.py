@@ -38,9 +38,8 @@ def eval_genome(genome, config):
 
         while not done:
 
-            action = np.argmax(net.activate(observation.tolist()))
-            
-            observation, reward, done, _, _ = env.step(action)
+            action_array = net.activate(observation.tolist())
+            observation, reward, done, _, _ = env.step(action=action_array)
             fitness += reward
 
         # if done==True:

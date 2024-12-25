@@ -6,3 +6,5 @@ logs.txt
 .gitignore
 models
 logs
+test.py
+winner_v1

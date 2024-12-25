@@ -6,7 +6,7 @@ import numpy as np
 import gameEnvironment
 
 # load the winner
-with open('winner_v0', 'rb') as f:
+with open('winner_v1', 'rb') as f:
     c = pickle.load(f)
 
 
@@ -41,6 +41,6 @@ step = 0
 while not done:
     step+=1
     print(step)
-    action = np.argmax(net.activate(observation))
-    print(move[int(action)])
+    action = net.activate(observation)
+    # print(move[int(action)])
     observation, reward, done, _, info = env.step(action)
