@@ -6,7 +6,7 @@ import numpy as np
 import gameEnvironment
 
 # load the winner
-with open('winner_v1', 'rb') as f:
+with open('models/winner_v2_6k', 'rb') as f:
     c = pickle.load(f)
 
 

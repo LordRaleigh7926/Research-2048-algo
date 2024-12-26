@@ -1,15 +1,15 @@
 [NEAT]
-fitness_criterion     = mean
-fitness_threshold     = 5000
-pop_size              = 100
-reset_on_extinction   = 0
+fitness_criterion     = max
+fitness_threshold     = 7000
+pop_size              = 200
+reset_on_extinction   = 1
 
 [DefaultGenome]
-mutate_rate = 0.3
+mutate_rate             = 0.3
 num_inputs              = 16
 num_hidden              = 16
 num_outputs             = 4
-num_layers              = 10
+num_layers              = 20
 initial_connection      = partial_direct 0.5
 feed_forward            = False
 use_recurrent           = True
@@ -54,7 +54,7 @@ enabled_mutate_rate     = 0.01
 compatibility_threshold = 3.0
 
 [DefaultStagnation]
-species_fitness_func = mean
+species_fitness_func = max
 max_stagnation  = 10
 
 [DefaultReproduction]

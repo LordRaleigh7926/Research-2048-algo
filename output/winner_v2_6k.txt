@@ -1,0 +1,656 @@
+
+ ****** Running generation 0 ****** 
+
+Population's average fitness: 2892.98830 stdev: 685.19003
+Best fitness: 5794.17500 - size: (20, 202) - species 81 - id 81
+Average adjusted fitness: 0.308
+Mean genetic distance 3.589, standard deviation 0.234
+Population of 600 members in 200 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    0     3   2548.9    0.226     0
+     2    0     3   4202.2    0.620     0
+     3    0     3   3090.0    0.355     0
+     4    0     3   3591.7    0.475     0
+     5    0     3   3678.6    0.495     0
+     6    0     3   2082.7    0.115     0
+     7    0     3   2457.6    0.204     0
+     8    0     3   2198.8    0.143     0
+     9    0     3   3113.0    0.361     0
+    10    0     3   3976.2    0.566     0
+    11    0     3   2750.5    0.274     0
+    12    0     3   2873.4    0.303     0
+    13    0     3   2420.9    0.196     0
+    14    0     3   3369.7    0.422     0
+    15    0     3   2741.8    0.272     0
+    16    0     3   3254.5    0.394     0
+    17    0     3   2496.8    0.214     0
+    18    0     3   2501.5    0.215     0
+    19    0     3   3553.7    0.466     0
+    20    0     3   2793.8    0.284     0
+    21    0     3   3049.4    0.345     0
+    22    0     3   2576.6    0.233     0
+    23    0     3   1800.8    0.048     0
+    24    0     3   3086.6    0.354     0
+    25    0     3   3148.7    0.369     0
+    26    0     3   3070.8    0.351     0
+    27    0     3   2823.6    0.292     0
+    28    0     3   2316.3    0.171     0
+    29    0     3   2171.8    0.136     0
+    30    0     3   3016.9    0.338     0
+    31    0     3   5062.1    0.825     0
+    32    0     3   2394.0    0.189     0
+    33    0     3   3434.7    0.437     0
+    34    0     3   2501.4    0.215     0
+    35    0     3   2602.7    0.239     0
+    36    0     3   2701.2    0.262     0
+    37    0     3   2380.9    0.186     0
+    38    0     3   1876.8    0.066     0
+    39    0     3   3734.8    0.509     0
+    40    0     3   2037.7    0.104     0
+    41    0     3   3490.0    0.450     0
+    42    0     3   2236.2    0.151     0
+    43    0     3   1601.0    0.000     0
+    44    0     3   2869.5    0.303     0
+    45    0     3   2172.8    0.136     0
+    46    0     3   2901.9    0.310     0
+    47    0     3   1975.2    0.089     0
+    48    0     3   2810.2    0.288     0
+    49    0     3   4578.2    0.710     0
+    50    0     3   2270.7    0.160     0
+    51    0     3   1733.9    0.032     0
+    52    0     3   2070.1    0.112     0
+    53    0     3   2899.9    0.310     0
+    54    0     3   2298.4    0.166     0
+    55    0     3   3094.2    0.356     0
+    56    0     3   2057.1    0.109     0
+    57    0     3   2618.5    0.243     0
+    58    0     3   2898.5    0.309     0
+    59    0     3   3325.1    0.411     0
+    60    0     3   2517.9    0.219     0
+    61    0     3   2735.8    0.271     0
+    62    0     3   1957.3    0.085     0
+    63    0     3   2945.0    0.321     0
+    64    0     3   3826.0    0.531     0
+    65    0     3   2446.3    0.202     0
+    66    0     3   1631.0    0.007     0
+    67    0     3   2576.1    0.233     0
+    68    0     3   2910.4    0.312     0
+    69    0     3   2674.4    0.256     0
+    70    0     3   2382.2    0.186     0
+    71    0     3   3159.5    0.372     0
+    72    0     3   3174.6    0.375     0
+    73    0     3   3364.7    0.421     0
+    74    0     3   3064.0    0.349     0
+    75    0     3   2542.5    0.225     0
+    76    0     3   2923.2    0.315     0
+    77    0     3   2543.9    0.225     0
+    78    0     3   2906.8    0.311     0
+    79    0     3   2907.9    0.312     0
+    80    0     3   2534.9    0.223     0
+    81    0     3   5794.2    1.000     0
+    82    0     3   3175.6    0.376     0
+    83    0     3   3162.8    0.372     0
+    84    0     3   2922.1    0.315     0
+    85    0     3   3031.5    0.341     0
+    86    0     3   3050.2    0.346     0
+    87    0     3   3133.0    0.365     0
+    88    0     3   2232.6    0.151     0
+    89    0     3   3212.5    0.384     0
+    90    0     3   3141.5    0.367     0
+    91    0     3   3149.2    0.369     0
+    92    0     3   3151.0    0.370     0
+    93    0     3   2204.5    0.144     0
+    94    0     3   2258.8    0.157     0
+    95    0     3   3520.1    0.458     0
+    96    0     3   2042.7    0.105     0
+    97    0     3   2425.8    0.197     0
+    98    0     3   2413.4    0.194     0
+    99    0     3   2238.4    0.152     0
+   100    0     3   2972.3    0.327     0
+   101    0     3   2038.7    0.104     0
+   102    0     3   3225.1    0.387     0
+   103    0     3   3420.1    0.434     0
+   104    0     3   3298.7    0.405     0
+   105    0     3   3190.7    0.379     0
+   106    0     3   3928.9    0.555     0
+   107    0     3   3686.7    0.497     0
+   108    0     3   2242.7    0.153     0
+   109    0     3   2619.2    0.243     0
+   110    0     3   2867.8    0.302     0
+   111    0     3   3249.1    0.393     0
+   112    0     3   2185.3    0.139     0
+   113    0     3   4749.8    0.751     0
+   114    0     3   2626.2    0.245     0
+   115    0     3   2118.8    0.123     0
+   116    0     3   2992.3    0.332     0
+   117    0     3   2040.8    0.105     0
+   118    0     3   2523.8    0.220     0
+   119    0     3   3647.6    0.488     0
+   120    0     3   1968.1    0.088     0
+   121    0     3   2849.9    0.298     0
+   122    0     3   3821.2    0.529     0
+   123    0     3   2660.1    0.253     0
+   124    0     3   4606.8    0.717     0
+   125    0     3   2500.7    0.215     0
+   126    0     3   3525.1    0.459     0
+   127    0     3   3349.5    0.417     0
+   128    0     3   2545.9    0.225     0
+   129    0     3   4474.1    0.685     0
+   130    0     3   2615.2    0.242     0
+   131    0     3   1890.4    0.069     0
+   132    0     3   3603.9    0.478     0
+   133    0     3   2589.2    0.236     0
+   134    0     3   4382.1    0.663     0
+   135    0     3   2780.1    0.281     0
+   136    0     3   2732.5    0.270     0
+   137    0     3   2666.1    0.254     0
+   138    0     3   4051.2    0.584     0
+   139    0     3   3042.6    0.344     0
+   140    0     3   2392.6    0.189     0
+   141    0     3   2307.1    0.168     0
+   142    0     3   2981.3    0.329     0
+   143    0     3   2904.2    0.311     0
+   144    0     3   2709.4    0.264     0
+   145    0     3   2531.9    0.222     0
+   146    0     3   3395.1    0.428     0
+   147    0     3   2740.2    0.272     0
+   148    0     3   2199.9    0.143     0
+   149    0     3   2745.7    0.273     0
+   150    0     3   2848.2    0.297     0
+   151    0     3   2254.9    0.156     0
+   152    0     3   2365.4    0.182     0
+   153    0     3   2605.2    0.239     0
+   154    0     3   4035.2    0.581     0
+   155    0     3   2956.9    0.323     0
+   156    0     3   2103.7    0.120     0
+   157    0     3   2127.6    0.126     0
+   158    0     3   2508.3    0.216     0
+   159    0     3   1752.9    0.036     0
+   160    0     3   2573.5    0.232     0
+   161    0     3   3023.0    0.339     0
+   162    0     3   4140.4    0.606     0
+   163    0     3   3045.2    0.344     0
+   164    0     3   2167.6    0.135     0
+   165    0     3   2171.1    0.136     0
+   166    0     3   2757.5    0.276     0
+   167    0     3   3732.8    0.508     0
+   168    0     3   4147.4    0.607     0
+   169    0     3   3146.1    0.368     0
+   170    0     3   2458.5    0.205     0
+   171    0     3   3026.4    0.340     0
+   172    0     3   3877.2    0.543     0
+   173    0     3   2803.4    0.287     0
+   174    0     3   2138.2    0.128     0
+   175    0     3   3168.0    0.374     0
+   176    0     3   4233.3    0.628     0
+   177    0     3   4150.9    0.608     0
+   178    0     3   2857.0    0.300     0
+   179    0     3   2461.0    0.205     0
+   180    0     3   2222.2    0.148     0
+   181    0     3   2752.6    0.275     0
+   182    0     3   4109.4    0.598     0
+   183    0     3   3526.7    0.459     0
+   184    0     3   2967.2    0.326     0
+   185    0     3   2408.1    0.192     0
+   186    0     3   1741.6    0.034     0
+   187    0     3   2682.4    0.258     0
+   188    0     3   2559.2    0.229     0
+   189    0     3   2825.5    0.292     0
+   190    0     3   2484.3    0.211     0
+   191    0     3   2117.4    0.123     0
+   192    0     3   2973.2    0.327     0
+   193    0     3   3199.3    0.381     0
+   194    0     3   2575.5    0.232     0
+   195    0     3   4035.4    0.581     0
+   196    0     3   3022.4    0.339     0
+   197    0     3   3520.0    0.458     0
+   198    0     3   4025.2    0.578     0
+   199    0     3   2881.2    0.305     0
+   200    0     3   3775.4    0.519     0
+Total extinctions: 0
+Generation time: 78.256 sec
+
+ ****** Running generation 1 ****** 
+
+Population's average fitness: 2923.07883 stdev: 674.10980
+Best fitness: 5313.27000 - size: (20, 202) - species 123 - id 123
+Average adjusted fitness: 0.400
+Mean genetic distance 3.589, standard deviation 0.234
+Population of 600 members in 200 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    1     3   3803.8    0.500     0
+     2    1     3   2984.5    0.273     1
+     3    1     3   3083.0    0.315     1
+     4    1     3   3771.6    0.465     0
+     5    1     3   2925.9    0.290     1
+     6    1     3   2321.2    0.183     0
+     7    1     3   2520.9    0.280     0
+     8    1     3   3854.7    0.483     0
+     9    1     3   4423.8    0.623     0
+    10    1     3   3481.2    0.491     1
+    11    1     3   3833.4    0.472     0
+    12    1     3   4519.1    0.679     0
+    13    1     3   4020.1    0.445     0
+    14    1     3   4382.9    0.525     0
+    15    1     3   3694.7    0.385     0
+    16    1     3   2563.0    0.226     1
+    17    1     3   4049.9    0.421     0
+    18    1     3   3122.4    0.343     0
+    19    1     3   3863.9    0.401     0
+    20    1     3   5244.8    0.614     0
+    21    1     3   3572.7    0.442     0
+    22    1     3   2554.3    0.272     1
+    23    1     3   3453.9    0.477     0
+    24    1     3   3700.0    0.494     0
+    25    1     3   2894.7    0.338     1
+    26    1     3   3521.3    0.448     0
+    27    1     3   3789.5    0.504     0
+    28    1     3   4604.7    0.682     0
+    29    1     3   3343.4    0.403     0
+    30    1     3   2602.4    0.214     1
+    31    1     3   2549.2    0.267     1
+    32    1     3   2973.2    0.385     0
+    33    1     3   4647.7    0.451     0
+    34    1     3   3647.4    0.480     0
+    35    1     3   3337.7    0.457     0
+    36    1     3   2359.4    0.214     1
+    37    1     3   3394.6    0.360     0
+    38    1     3   3251.6    0.404     0
+    39    1     3   3095.8    0.359     1
+    40    1     3   2667.4    0.278     0
+    41    1     3   3038.3    0.338     1
+    42    1     3   3267.2    0.300     0
+    43    1     3   4097.1    0.491     0
+    44    1     3   3246.3    0.458     0
+    45    1     3   4274.1    0.386     0
+    46    1     3   3197.9    0.393     0
+    47    1     3   4062.7    0.434     0
+    48    1     3   3627.0    0.309     0
+    49    1     3   3551.5    0.433     1
+    50    1     3   3342.5    0.447     0
+    51    1     3   3703.4    0.467     0
+    52    1     3   3423.0    0.377     0
+    53    1     3   3111.8    0.381     0
+    54    1     3   3216.7    0.358     0
+    55    1     3   3456.8    0.277     0
+    56    1     3   3320.0    0.450     0
+    57    1     3   2948.8    0.369     0
+    58    1     3   2948.3    0.356     0
+    59    1     3   3913.4    0.528     0
+    60    1     3   3303.8    0.386     0
+    61    1     3   3728.0    0.448     0
+    62    1     3   3276.4    0.395     0
+    63    1     3   2847.6    0.349     1
+    64    1     3   3069.9    0.349     1
+    65    1     3   3062.5    0.272     0
+    66    1     3   2929.9    0.324     0
+    67    1     3   2954.7    0.304     0
+    68    1     3   3577.5    0.395     0
+    69    1     3   3021.4    0.320     0
+    70    1     3   3501.7    0.401     0
+    71    1     3   3031.7    0.339     1
+    72    1     3   3085.4    0.323     1
+    73    1     3   3542.7    0.373     0
+    74    1     3   4014.8    0.472     0
+    75    1     3   5001.6    0.631     0
+    76    1     3   3670.8    0.325     0
+    77    1     3   3676.4    0.396     0
+    78    1     3   3409.5    0.402     0
+    79    1     3   3350.8    0.380     0
+    80    1     3   3404.8    0.300     0
+    81    1     3   3794.7    0.360     1
+    82    1     3   3377.3    0.459     0
+    83    1     3   3168.7    0.391     0
+    84    1     3   4301.0    0.487     0
+    85    1     3   4943.9    0.554     0
+    86    1     3   3508.9    0.438     0
+    87    1     3   3177.6    0.333     0
+    88    1     3   3724.8    0.495     0
+    89    1     3   3831.2    0.365     0
+    90    1     3   3498.3    0.377     0
+    91    1     3   3429.9    0.288     0
+    92    1     3   3595.0    0.479     0
+    93    1     3   3625.1    0.316     0
+    94    1     3   2819.0    0.286     0
+    95    1     3   3690.2    0.517     0
+    96    1     3   3107.0    0.281     0
+    97    1     3   3415.2    0.347     0
+    98    1     3   3112.7    0.355     0
+    99    1     3   4167.7    0.475     0
+   100    1     3   2781.9    0.287     1
+   101    1     3   3852.4    0.400     0
+   102    1     3   3279.1    0.431     0
+   103    1     3   3080.8    0.305     1
+   104    1     3   4133.3    0.410     0
+   105    1     3   3792.4    0.543     0
+   106    1     3   2766.3    0.299     1
+   107    1     3   2788.3    0.267     1
+   108    1     3   3653.4    0.359     0
+   109    1     3   3304.2    0.425     0
+   110    1     3   3989.2    0.529     0
+   111    1     3   3091.4    0.288     1
+   112    1     3   4213.1    0.336     0
+   113    1     3   3644.3    0.470     1
+   114    1     3   4237.4    0.599     0
+   115    1     3   3813.1    0.476     0
+   116    1     3   3049.7    0.370     0
+   117    1     3   3328.8    0.417     0
+   118    1     3   3229.6    0.357     0
+   119    1     3   3211.9    0.297     1
+   120    1     3   3801.4    0.417     0
+   121    1     3   3537.5    0.482     0
+   122    1     3   3146.9    0.395     1
+   123    1     3   5313.3    0.609     0
+   124    1     3   4850.0    0.528     0
+   125    1     3   3094.4    0.387     0
+   126    1     3   3583.6    0.403     0
+   127    1     3   4267.0    0.487     0
+   128    1     3   4865.7    0.642     0
+   129    1     3   2655.2    0.296     1
+   130    1     3   3819.6    0.412     0
+   131    1     3   3387.8    0.411     0
+   132    1     3   3463.2    0.391     1
+   133    1     3   3591.5    0.464     0
+   134    1     3   4298.4    0.437     1
+   135    1     3   4271.9    0.486     0
+   136    1     3   3557.5    0.444     0
+   137    1     3   2845.2    0.309     0
+   138    1     3   2935.7    0.355     1
+   139    1     3   2792.6    0.289     1
+   140    1     3   3367.7    0.422     0
+   141    1     3   4333.1    0.526     0
+   142    1     3   3761.6    0.466     0
+   143    1     3   4107.7    0.371     0
+   144    1     3   2335.0    0.193     1
+   145    1     3   3185.1    0.325     0
+   146    1     3   3812.9    0.561     0
+   147    1     3   2862.9    0.283     0
+   148    1     3   2958.2    0.348     0
+   149    1     3   3497.8    0.474     0
+   150    1     3   3730.5    0.429     0
+   151    1     3   2470.3    0.247     0
+   152    1     3   3522.7    0.417     0
+   153    1     3   3807.7    0.466     0
+   154    1     3   3072.1    0.303     1
+   155    1     3   3092.1    0.359     0
+   156    1     3   3483.5    0.453     0
+   157    1     3   3921.4    0.435     0
+   158    1     3   3075.9    0.279     0
+   159    1     3   3072.2    0.366     0
+   160    1     3   3479.7    0.421     0
+   161    1     3   3563.9    0.491     0
+   162    1     3   3565.1    0.385     1
+   163    1     3   2842.2    0.327     1
+   164    1     3   3032.1    0.315     0
+   165    1     3   3002.0    0.347     0
+   166    1     3   3140.5    0.317     0
+   167    1     3   3221.8    0.351     1
+   168    1     3   3606.3    0.425     1
+   169    1     3   4152.3    0.473     0
+   170    1     3   4380.6    0.527     0
+   171    1     3   3165.3    0.377     0
+   172    1     3   4152.1    0.487     0
+   173    1     3   2842.4    0.324     0
+   174    1     3   3743.6    0.359     0
+   175    1     3   2714.7    0.326     1
+   176    1     3   3908.2    0.527     1
+   177    1     3   4065.8    0.470     1
+   178    1     3   2976.6    0.341     0
+   179    1     3   3073.7    0.283     0
+   180    1     3   4422.5    0.449     0
+   181    1     3   3730.9    0.470     0
+   182    1     3   3601.4    0.400     1
+   183    1     3   3308.0    0.308     1
+   184    1     3   3077.4    0.320     0
+   185    1     3   3879.0    0.362     0
+   186    1     3   3627.0    0.382     0
+   187    1     3   3247.1    0.416     0
+   188    1     3   4553.8    0.502     0
+   189    1     3   4628.2    0.477     0
+   190    1     3   2454.4    0.253     1
+   191    1     3   3419.8    0.469     0
+   192    1     3   3866.2    0.305     0
+   193    1     3   3967.1    0.383     0
+   194    1     3   3259.6    0.320     0
+   195    1     3   2937.0    0.275     1
+   196    1     3   3112.2    0.330     0
+   197    1     3   4223.7    0.533     0
+   198    1     3   2443.5    0.262     1
+   199    1     3   4470.3    0.599     0
+   200    1     3   4918.1    0.681     0
+Total extinctions: 0
+Generation time: 209.481 sec (143.869 average)
+
+ ****** Running generation 2 ****** 
+
+Population's average fitness: 2951.62140 stdev: 620.02523
+Best fitness: 6152.86500 - size: (20, 200) - species 181 - id 387
+
+Best individual in generation 2 meets fitness threshold - complexity: (20, 200)
+Key: 387
+Fitness: 6152.865000000001
+Nodes:
+	0 DefaultNodeGene(key=0, bias=-0.5682104761013853, response=1.0, activation=relu, aggregation=sum)
+	1 DefaultNodeGene(key=1, bias=-1.169387122468211, response=1.0, activation=relu, aggregation=sum)
+	2 DefaultNodeGene(key=2, bias=-0.2309691058750104, response=1.0, activation=relu, aggregation=sum)
+	3 DefaultNodeGene(key=3, bias=0.2219760671485178, response=1.0, activation=relu, aggregation=sum)
+	2884 DefaultNodeGene(key=2884, bias=-2.3653213713498142, response=1.0, activation=relu, aggregation=sum)
+	2885 DefaultNodeGene(key=2885, bias=-0.0862155041922629, response=1.0, activation=relu, aggregation=sum)
+	2886 DefaultNodeGene(key=2886, bias=1.8844719743766212, response=1.0, activation=relu, aggregation=sum)
+	2887 DefaultNodeGene(key=2887, bias=2.2773487487113724, response=1.0, activation=relu, aggregation=sum)
+	2888 DefaultNodeGene(key=2888, bias=-0.9019360711256881, response=1.0, activation=relu, aggregation=sum)
+	2889 DefaultNodeGene(key=2889, bias=-1.7677278747394967, response=1.0, activation=relu, aggregation=sum)
+	2890 DefaultNodeGene(key=2890, bias=-0.9015171439566865, response=1.0, activation=relu, aggregation=sum)
+	2891 DefaultNodeGene(key=2891, bias=1.67026596729903, response=1.0, activation=relu, aggregation=sum)
+	2892 DefaultNodeGene(key=2892, bias=0.6402147127969441, response=1.0, activation=relu, aggregation=sum)
+	2893 DefaultNodeGene(key=2893, bias=-0.6341373230240136, response=1.0, activation=relu, aggregation=sum)
+	2894 DefaultNodeGene(key=2894, bias=1.0458701724097135, response=1.0, activation=relu, aggregation=sum)
+	2895 DefaultNodeGene(key=2895, bias=0.610034331928833, response=1.0, activation=relu, aggregation=sum)
+	2896 DefaultNodeGene(key=2896, bias=-1.883529259020114, response=1.0, activation=relu, aggregation=sum)
+	2897 DefaultNodeGene(key=2897, bias=-0.4952611138202783, response=1.0, activation=relu, aggregation=sum)
+	2898 DefaultNodeGene(key=2898, bias=0.6840403872993718, response=1.0, activation=relu, aggregation=sum)
+	2899 DefaultNodeGene(key=2899, bias=0.7831603594092414, response=1.0, activation=relu, aggregation=sum)
+Connections:
+	DefaultConnectionGene(key=(-16, 0), weight=1.0608376438259375, enabled=True)
+	DefaultConnectionGene(key=(-16, 2886), weight=-0.41879738831718505, enabled=True)
+	DefaultConnectionGene(key=(-16, 2887), weight=0.143772909738915, enabled=True)
+	DefaultConnectionGene(key=(-16, 2891), weight=-0.2311402305136563, enabled=True)
+	DefaultConnectionGene(key=(-16, 2895), weight=-0.4650838115775439, enabled=True)
+	DefaultConnectionGene(key=(-16, 2898), weight=0.2722494863782047, enabled=True)
+	DefaultConnectionGene(key=(-16, 2899), weight=0.14945899807436147, enabled=True)
+	DefaultConnectionGene(key=(-15, 0), weight=1.0581202470420783, enabled=True)
+	DefaultConnectionGene(key=(-15, 2), weight=2.0072164955998084, enabled=True)
+	DefaultConnectionGene(key=(-15, 2884), weight=0.8277402403256896, enabled=True)
+	DefaultConnectionGene(key=(-15, 2885), weight=0.7652349151968396, enabled=True)
+	DefaultConnectionGene(key=(-15, 2886), weight=1.5918772535491559, enabled=True)
+	DefaultConnectionGene(key=(-15, 2887), weight=-0.6301372443666913, enabled=True)
+	DefaultConnectionGene(key=(-15, 2889), weight=0.8774002328263018, enabled=True)
+	DefaultConnectionGene(key=(-15, 2890), weight=0.560665943871095, enabled=True)
+	DefaultConnectionGene(key=(-15, 2891), weight=-0.24854611869878396, enabled=True)
+	DefaultConnectionGene(key=(-15, 2892), weight=1.36572642843197, enabled=True)
+	DefaultConnectionGene(key=(-15, 2898), weight=0.6568336900383818, enabled=True)
+	DefaultConnectionGene(key=(-14, 0), weight=-1.7476444226652732, enabled=True)
+	DefaultConnectionGene(key=(-14, 1), weight=1.2756451738614125, enabled=True)
+	DefaultConnectionGene(key=(-14, 3), weight=0.6751436151252764, enabled=True)
+	DefaultConnectionGene(key=(-14, 2888), weight=-1.6472777395711669, enabled=True)
+	DefaultConnectionGene(key=(-14, 2890), weight=-0.5315655240892675, enabled=True)
+	DefaultConnectionGene(key=(-14, 2891), weight=-0.29152562274131516, enabled=True)
+	DefaultConnectionGene(key=(-14, 2892), weight=1.3727455087656433, enabled=True)
+	DefaultConnectionGene(key=(-14, 2893), weight=0.021762987608714784, enabled=True)
+	DefaultConnectionGene(key=(-14, 2896), weight=-0.6613066306651902, enabled=True)
+	DefaultConnectionGene(key=(-14, 2898), weight=-2.2586127354652072, enabled=True)
+	DefaultConnectionGene(key=(-13, 2), weight=2.493860221618524, enabled=True)
+	DefaultConnectionGene(key=(-13, 3), weight=-0.3500293556422621, enabled=True)
+	DefaultConnectionGene(key=(-13, 2884), weight=-2.7288465260377035, enabled=True)
+	DefaultConnectionGene(key=(-13, 2887), weight=1.1667887538455215, enabled=True)
+	DefaultConnectionGene(key=(-13, 2889), weight=-1.362262462578054, enabled=True)
+	DefaultConnectionGene(key=(-13, 2890), weight=-0.25320994001440933, enabled=True)
+	DefaultConnectionGene(key=(-13, 2891), weight=0.24815378634762547, enabled=True)
+	DefaultConnectionGene(key=(-13, 2892), weight=-3.657181522610136, enabled=True)
+	DefaultConnectionGene(key=(-13, 2893), weight=0.6113321636742612, enabled=True)
+	DefaultConnectionGene(key=(-13, 2898), weight=1.1473582939593723, enabled=True)
+	DefaultConnectionGene(key=(-12, 1), weight=0.7682643367953472, enabled=True)
+	DefaultConnectionGene(key=(-12, 2), weight=0.42675955949856675, enabled=True)
+	DefaultConnectionGene(key=(-12, 2886), weight=1.3994618242317074, enabled=True)
+	DefaultConnectionGene(key=(-12, 2887), weight=0.4628136252838224, enabled=True)
+	DefaultConnectionGene(key=(-12, 2888), weight=-0.9096382888144728, enabled=True)
+	DefaultConnectionGene(key=(-12, 2889), weight=0.7836480155808974, enabled=True)
+	DefaultConnectionGene(key=(-12, 2891), weight=-0.6906954799471154, enabled=True)
+	DefaultConnectionGene(key=(-12, 2894), weight=2.4105215908477837, enabled=True)
+	DefaultConnectionGene(key=(-12, 2895), weight=0.07918496323437879, enabled=True)
+	DefaultConnectionGene(key=(-12, 2896), weight=0.3303912276987422, enabled=True)
+	DefaultConnectionGene(key=(-12, 2898), weight=0.8200652113214151, enabled=True)
+	DefaultConnectionGene(key=(-12, 2899), weight=1.520426918048702, enabled=True)
+	DefaultConnectionGene(key=(-11, 1), weight=1.0151743968026659, enabled=True)
+	DefaultConnectionGene(key=(-11, 2), weight=-1.8234793389410233, enabled=True)
+	DefaultConnectionGene(key=(-11, 3), weight=0.23559611181265291, enabled=True)
+	DefaultConnectionGene(key=(-11, 2884), weight=2.2411015749094947, enabled=True)
+	DefaultConnectionGene(key=(-11, 2885), weight=1.2374217163979577, enabled=True)
+	DefaultConnectionGene(key=(-11, 2886), weight=-1.4209363520994107, enabled=True)
+	DefaultConnectionGene(key=(-11, 2887), weight=0.9597585306224521, enabled=True)
+	DefaultConnectionGene(key=(-11, 2889), weight=0.34035185534520523, enabled=True)
+	DefaultConnectionGene(key=(-11, 2890), weight=-0.562240464073525, enabled=True)
+	DefaultConnectionGene(key=(-11, 2892), weight=0.012980146265374026, enabled=True)
+	DefaultConnectionGene(key=(-11, 2893), weight=-2.0130377508043926, enabled=True)
+	DefaultConnectionGene(key=(-11, 2894), weight=1.5220823047911083, enabled=True)
+	DefaultConnectionGene(key=(-11, 2897), weight=1.2374560278543054, enabled=True)
+	DefaultConnectionGene(key=(-11, 2898), weight=-0.5313838447334809, enabled=True)
+	DefaultConnectionGene(key=(-11, 2899), weight=0.06861170952994775, enabled=True)
+	DefaultConnectionGene(key=(-10, 3), weight=-0.3667745699936057, enabled=True)
+	DefaultConnectionGene(key=(-10, 2889), weight=-0.08595153140891038, enabled=True)
+	DefaultConnectionGene(key=(-10, 2890), weight=0.7647155768297784, enabled=True)
+	DefaultConnectionGene(key=(-10, 2893), weight=0.6924336926889822, enabled=True)
+	DefaultConnectionGene(key=(-10, 2895), weight=0.07781196946317681, enabled=True)
+	DefaultConnectionGene(key=(-10, 2897), weight=-0.30308731287907764, enabled=True)
+	DefaultConnectionGene(key=(-10, 2898), weight=0.2795661573571777, enabled=True)
+	DefaultConnectionGene(key=(-9, 1), weight=-0.3209145369209534, enabled=True)
+	DefaultConnectionGene(key=(-9, 2884), weight=1.1849178780880907, enabled=True)
+	DefaultConnectionGene(key=(-9, 2887), weight=-0.4933745691083691, enabled=True)
+	DefaultConnectionGene(key=(-9, 2888), weight=-0.4585965479778751, enabled=True)
+	DefaultConnectionGene(key=(-9, 2889), weight=1.7108511234559958, enabled=True)
+	DefaultConnectionGene(key=(-9, 2892), weight=0.6553767664206794, enabled=True)
+	DefaultConnectionGene(key=(-9, 2893), weight=-0.8661598741772669, enabled=True)
+	DefaultConnectionGene(key=(-9, 2898), weight=-1.2652146013276218, enabled=True)
+	DefaultConnectionGene(key=(-8, 0), weight=-1.0432042844517928, enabled=True)
+	DefaultConnectionGene(key=(-8, 2885), weight=0.08020541570226124, enabled=True)
+	DefaultConnectionGene(key=(-8, 2887), weight=0.6836127620542854, enabled=True)
+	DefaultConnectionGene(key=(-8, 2888), weight=0.3926508168739865, enabled=True)
+	DefaultConnectionGene(key=(-8, 2889), weight=0.2559958832693455, enabled=True)
+	DefaultConnectionGene(key=(-8, 2890), weight=0.15650819173889996, enabled=True)
+	DefaultConnectionGene(key=(-8, 2891), weight=-1.2134962592999972, enabled=True)
+	DefaultConnectionGene(key=(-8, 2892), weight=1.3459715454920391, enabled=True)
+	DefaultConnectionGene(key=(-8, 2894), weight=-0.6930900858168997, enabled=True)
+	DefaultConnectionGene(key=(-8, 2897), weight=-0.160635148169869, enabled=True)
+	DefaultConnectionGene(key=(-8, 2899), weight=-2.5407254501793357, enabled=True)
+	DefaultConnectionGene(key=(-7, 0), weight=-0.22002705466870764, enabled=True)
+	DefaultConnectionGene(key=(-7, 2), weight=0.8369157638591753, enabled=True)
+	DefaultConnectionGene(key=(-7, 3), weight=1.4762044930895168, enabled=True)
+	DefaultConnectionGene(key=(-7, 2886), weight=0.48467750904577755, enabled=True)
+	DefaultConnectionGene(key=(-7, 2887), weight=2.6040259538546695, enabled=True)
+	DefaultConnectionGene(key=(-7, 2889), weight=-1.6171935579733048, enabled=True)
+	DefaultConnectionGene(key=(-7, 2893), weight=0.41444990815234317, enabled=False)
+	DefaultConnectionGene(key=(-7, 2894), weight=-0.16971098777122617, enabled=True)
+	DefaultConnectionGene(key=(-7, 2896), weight=-2.353641745957316, enabled=True)
+	DefaultConnectionGene(key=(-7, 2897), weight=0.15795694633395382, enabled=True)
+	DefaultConnectionGene(key=(-6, 0), weight=-1.6876645477478476, enabled=True)
+	DefaultConnectionGene(key=(-6, 1), weight=-0.2273100098174527, enabled=True)
+	DefaultConnectionGene(key=(-6, 2), weight=2.1097433133410344, enabled=True)
+	DefaultConnectionGene(key=(-6, 2886), weight=-1.0651136626301978, enabled=True)
+	DefaultConnectionGene(key=(-6, 2887), weight=-2.4852656393438908, enabled=True)
+	DefaultConnectionGene(key=(-6, 2888), weight=-0.3320334505365402, enabled=True)
+	DefaultConnectionGene(key=(-6, 2892), weight=-1.0657012440991325, enabled=True)
+	DefaultConnectionGene(key=(-6, 2893), weight=2.0508212462443276, enabled=True)
+	DefaultConnectionGene(key=(-6, 2894), weight=-1.1022716459654038, enabled=True)
+	DefaultConnectionGene(key=(-6, 2897), weight=-0.3458939504092907, enabled=True)
+	DefaultConnectionGene(key=(-5, 0), weight=-1.3076202145272882, enabled=True)
+	DefaultConnectionGene(key=(-5, 1), weight=0.17120058783746284, enabled=True)
+	DefaultConnectionGene(key=(-5, 2), weight=0.518449705392846, enabled=True)
+	DefaultConnectionGene(key=(-5, 3), weight=0.7753336945364911, enabled=True)
+	DefaultConnectionGene(key=(-5, 2884), weight=-0.43161183092810856, enabled=True)
+	DefaultConnectionGene(key=(-5, 2891), weight=-0.5370651906435, enabled=True)
+	DefaultConnectionGene(key=(-5, 2892), weight=-0.0035033753827443948, enabled=True)
+	DefaultConnectionGene(key=(-5, 2895), weight=-0.7616261521060776, enabled=True)
+	DefaultConnectionGene(key=(-5, 2896), weight=0.9720591698161353, enabled=True)
+	DefaultConnectionGene(key=(-5, 2898), weight=1.8810874656203227, enabled=True)
+	DefaultConnectionGene(key=(-4, 1), weight=-2.443146120311815, enabled=True)
+	DefaultConnectionGene(key=(-4, 2884), weight=0.23751560137083294, enabled=True)
+	DefaultConnectionGene(key=(-4, 2886), weight=-0.4578463359906644, enabled=True)
+	DefaultConnectionGene(key=(-4, 2887), weight=1.2151005537715933, enabled=True)
+	DefaultConnectionGene(key=(-4, 2888), weight=1.2366356078179792, enabled=True)
+	DefaultConnectionGene(key=(-4, 2889), weight=-0.0021143741595664733, enabled=True)
+	DefaultConnectionGene(key=(-4, 2891), weight=0.5779160073871925, enabled=True)
+	DefaultConnectionGene(key=(-4, 2893), weight=1.7804206174457424, enabled=True)
+	DefaultConnectionGene(key=(-4, 2895), weight=-0.9330504094983101, enabled=True)
+	DefaultConnectionGene(key=(-4, 2896), weight=0.21415294965227277, enabled=True)
+	DefaultConnectionGene(key=(-4, 2898), weight=0.0048684532507240474, enabled=True)
+	DefaultConnectionGene(key=(-3, 1), weight=0.6502318298682368, enabled=True)
+	DefaultConnectionGene(key=(-3, 3), weight=0.91153030903502, enabled=True)
+	DefaultConnectionGene(key=(-3, 2887), weight=0.11797380447929184, enabled=True)
+	DefaultConnectionGene(key=(-3, 2888), weight=0.8727560531124792, enabled=True)
+	DefaultConnectionGene(key=(-3, 2889), weight=-0.37194534510115046, enabled=True)
+	DefaultConnectionGene(key=(-3, 2890), weight=-1.800702611276162, enabled=True)
+	DefaultConnectionGene(key=(-3, 2892), weight=-0.26379698230653226, enabled=True)
+	DefaultConnectionGene(key=(-3, 2894), weight=-1.2461716130993663, enabled=True)
+	DefaultConnectionGene(key=(-3, 2896), weight=-1.1467970346338499, enabled=True)
+	DefaultConnectionGene(key=(-3, 2898), weight=-0.7883953258116522, enabled=True)
+	DefaultConnectionGene(key=(-2, 1), weight=-0.18014156027451916, enabled=True)
+	DefaultConnectionGene(key=(-2, 3), weight=-0.06995897263086426, enabled=True)
+	DefaultConnectionGene(key=(-2, 2884), weight=-0.8749413465218758, enabled=True)
+	DefaultConnectionGene(key=(-2, 2885), weight=1.1161850938767917, enabled=True)
+	DefaultConnectionGene(key=(-2, 2886), weight=-1.741760629161738, enabled=True)
+	DefaultConnectionGene(key=(-2, 2887), weight=1.9689758161748832, enabled=True)
+	DefaultConnectionGene(key=(-2, 2888), weight=-0.19694176052132822, enabled=True)
+	DefaultConnectionGene(key=(-2, 2892), weight=-0.459260784915284, enabled=True)
+	DefaultConnectionGene(key=(-2, 2893), weight=-0.29694764555289144, enabled=True)
+	DefaultConnectionGene(key=(-2, 2894), weight=-1.6681287892526497, enabled=True)
+	DefaultConnectionGene(key=(-2, 2895), weight=-0.408586400397838, enabled=True)
+	DefaultConnectionGene(key=(-2, 2896), weight=-0.8816589278345872, enabled=True)
+	DefaultConnectionGene(key=(-2, 2897), weight=-0.275689773181437, enabled=True)
+	DefaultConnectionGene(key=(-2, 2898), weight=0.4432242630755374, enabled=True)
+	DefaultConnectionGene(key=(-1, 1), weight=-0.7844693291527488, enabled=True)
+	DefaultConnectionGene(key=(-1, 2), weight=0.6122450314153497, enabled=True)
+	DefaultConnectionGene(key=(-1, 2884), weight=-1.7070776152869287, enabled=True)
+	DefaultConnectionGene(key=(-1, 2885), weight=1.3749283006447828, enabled=True)
+	DefaultConnectionGene(key=(-1, 2886), weight=-0.3382930064241367, enabled=True)
+	DefaultConnectionGene(key=(-1, 2889), weight=1.021460880303138, enabled=True)
+	DefaultConnectionGene(key=(-1, 2892), weight=-0.5513216139934571, enabled=True)
+	DefaultConnectionGene(key=(-1, 2897), weight=-1.3358156511539994, enabled=True)
+	DefaultConnectionGene(key=(2, 2), weight=1.0290039733646086, enabled=True)
+	DefaultConnectionGene(key=(2884, 0), weight=0.2008029086767436, enabled=True)
+	DefaultConnectionGene(key=(2884, 1), weight=-0.0408503617052627, enabled=True)
+	DefaultConnectionGene(key=(2884, 2), weight=0.9112808657116346, enabled=True)
+	DefaultConnectionGene(key=(2884, 3), weight=-0.5004679103022839, enabled=True)
+	DefaultConnectionGene(key=(2885, 1), weight=-0.2944325487233198, enabled=True)
+	DefaultConnectionGene(key=(2885, 2), weight=1.0210510037984362, enabled=True)
+	DefaultConnectionGene(key=(2886, 3), weight=-1.4366611693001017, enabled=True)
+	DefaultConnectionGene(key=(2887, 1), weight=1.4571946305450258, enabled=True)
+	DefaultConnectionGene(key=(2887, 2), weight=0.08122129069325122, enabled=True)
+	DefaultConnectionGene(key=(2888, 0), weight=0.4053065036213698, enabled=True)
+	DefaultConnectionGene(key=(2888, 1), weight=-0.7374912413878325, enabled=True)
+	DefaultConnectionGene(key=(2888, 2), weight=0.2603148774819448, enabled=True)
+	DefaultConnectionGene(key=(2888, 3), weight=1.1142486519077064, enabled=True)
+	DefaultConnectionGene(key=(2889, 3), weight=1.1720987575924122, enabled=True)
+	DefaultConnectionGene(key=(2890, 1), weight=-3.152389113031447, enabled=True)
+	DefaultConnectionGene(key=(2890, 3), weight=0.37652316738589, enabled=True)
+	DefaultConnectionGene(key=(2891, 2), weight=0.6760901259460338, enabled=True)
+	DefaultConnectionGene(key=(2891, 2891), weight=-0.0229935282502845, enabled=True)
+	DefaultConnectionGene(key=(2892, 0), weight=0.9786062534795044, enabled=True)
+	DefaultConnectionGene(key=(2892, 3), weight=0.8894902767460279, enabled=True)
+	DefaultConnectionGene(key=(2893, 1), weight=0.42884397035502186, enabled=True)
+	DefaultConnectionGene(key=(2893, 2893), weight=0.19619060467622176, enabled=True)
+	DefaultConnectionGene(key=(2894, 0), weight=-0.001841546734805282, enabled=True)
+	DefaultConnectionGene(key=(2895, 0), weight=-0.08435342115641932, enabled=True)
+	DefaultConnectionGene(key=(2895, 1), weight=-0.8830212868043303, enabled=True)
+	DefaultConnectionGene(key=(2895, 2), weight=-0.026668399392596936, enabled=True)
+	DefaultConnectionGene(key=(2895, 3), weight=-1.1767035430242856, enabled=True)
+	DefaultConnectionGene(key=(2896, 1), weight=1.627134220091096, enabled=True)
+	DefaultConnectionGene(key=(2896, 2896), weight=-1.2762776960856481, enabled=True)
+	DefaultConnectionGene(key=(2897, 1), weight=1.3308305102225289, enabled=True)
+	DefaultConnectionGene(key=(2897, 2), weight=-0.17269459242728746, enabled=True)
+	DefaultConnectionGene(key=(2897, 3), weight=-0.5640357472476136, enabled=True)
+	DefaultConnectionGene(key=(2897, 2897), weight=-1.507168698626822, enabled=True)
+	DefaultConnectionGene(key=(2898, 1), weight=0.7783700729447465, enabled=True)
+	DefaultConnectionGene(key=(2899, 1), weight=-0.48364726792903906, enabled=True)
+	DefaultConnectionGene(key=(2899, 2), weight=0.07438570566800878, enabled=True)
